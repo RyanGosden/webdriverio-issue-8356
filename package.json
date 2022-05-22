@@ -1,0 +1,31 @@
+{
+  "name": "webdriverio-issue-8356",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "16.14.0"
+  },
+  "scripts": {
+    "test-e2e-working": "STATE=working npx wdio run wdio.conf.js",
+    "test-e2e-not-working": "STATE=not-working npx wdio run wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanGosden/webdriverio-issue-8356.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanGosden/webdriverio-issue-8356/issues"
+  },
+  "homepage": "https://github.com/RyanGosden/webdriverio-issue-8356#readme",
+  "devDependencies": {
+    "@wdio/local-runner": "^7.5.7",
+    "@wdio/mocha-framework": "^7.16.6",
+    "@wdio/spec-reporter": "^7.5.7",
+    "wdio-chromedriver-service": "^7.0.0",
+    "chromedriver": "^101.0.0"
+  }
+}
+
